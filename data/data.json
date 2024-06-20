@@ -1,3 +1,42 @@
 [
-    
+    {
+        "maskapai": "Lion Air",
+        "bandaraAsal": "Soekarno-Hatta (CGK)",
+        "bandaraTujuan": "Ngurah Rai (DPS)",
+        "harga": 700000,
+        "pajakAsal": 50000,
+        "pajakTujuan": 80000,
+        "totalPajak": 130000,
+        "totalHargaTiket": 830000
+    },
+    {
+        "maskapai": "Citilink",
+        "bandaraAsal": "Soekarno-Hatta (CGK)",
+        "bandaraTujuan": "Hasanuddin (UPG)",
+        "harga": 300000,
+        "pajakAsal": 50000,
+        "pajakTujuan": 70000,
+        "totalPajak": 120000,
+        "totalHargaTiket": 420000
+    },
+    {
+        "maskapai": "Air Asia",
+        "bandaraAsal": "Juanda (SUB)",
+        "bandaraTujuan": "Ngurah Rai (DPS)",
+        "harga": 540000,
+        "pajakAsal": 40000,
+        "pajakTujuan": 80000,
+        "totalPajak": 120000,
+        "totalHargaTiket": 660000
+    },
+    {
+        "maskapai": "Garuda",
+        "bandaraAsal": "Abdul Rachman Saleh (MLG)",
+        "bandaraTujuan": "Inanwatan (INX)",
+        "harga": 500000,
+        "pajakAsal": 40000,
+        "pajakTujuan": 90000,
+        "totalPajak": 130000,
+        "totalHargaTiket": 630000
+    }
 ]

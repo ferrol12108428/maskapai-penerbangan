@@ -59,7 +59,7 @@
               <!-- Baris data bandara asal -->
               <?php
               // File Json yang akan dibaca
-              $file = 'data/bandara_asal.json';
+              $file = 'data/bandaraAsal.json';
               $getFile = file_get_contents($file);
               $datas = json_decode($getFile, true);
               $i = 1;
@@ -68,13 +68,13 @@
                 if ($i % 2 === 0) {
                   echo '<tr class="active">';
                   echo '<td>' . $i++ . '</td>';
-                  echo '<td>' . $data['bandara_asal'] . "</td>";
+                  echo '<td>' . $data['bandaraAsal'] . "</td>";
                   echo '<td>' . $data['pajak'] . "</td>";
                   echo '</tr>';
                 } else {
                   echo '<tr>';
                   echo '<td>' . $i++ . '</td>';
-                  echo '<td>' . $data['bandara_asal'] . "</td>";
+                  echo '<td>' . $data['bandaraAsal'] . "</td>";
                   echo '<td>' . $data['pajak'] . "</td>";
                   echo '</tr>';
                 }
@@ -102,7 +102,7 @@
               <!-- Baris data bandara tujuan -->
                <?php
                 // File Json yang akan dibaca
-                $file = 'data/bandara_tujuan.json';
+                $file = 'data/bandaraTujuan.json';
                 $getFile = file_get_contents($file);
                 $datas = json_decode($getFile, true);
                 $i = 1;
@@ -111,13 +111,13 @@
                   if ($i % 2 === 0) {
                     echo '<tr class="active">';
                     echo '<td>' . $i++ . '</td>';
-                    echo '<td>' . $data['bandara_tujuan'] . "</td>";
+                    echo '<td>' . $data['bandaraTujuan'] . "</td>";
                     echo '<td>' . $data['pajak'] . "</td>";
                     echo '</tr>';
                   } else {
                     echo '<tr>';
                     echo '<td>' . $i++ . '</td>';
-                    echo '<td>' . $data['bandara_tujuan'] . "</td>";
+                    echo '<td>' . $data['bandaraTujuan'] . "</td>";
                     echo '<td>' . $data['pajak'] . "</td>";
                     echo '</tr>';
                   }
