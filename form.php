@@ -13,7 +13,13 @@
   <!-- Link Bootstrap End -->
 </head>
 
-<body>
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
+
+<body>  
     <div class="container">
         <h1 class="mt-5">Pendaftaran Rute Penerbangan</h1>
         
@@ -131,14 +137,17 @@ if (isset($_POST['submit'])) {
         }
     }
 
+    // Menghitung total pajak
     function totalPajak($pajakAsal, $pajakTujuan){
       return $pajakAsal + $pajakTujuan;
     } 
 
+    // Menghitung total harga tiket
     function totalHarga($totalPajak, $harga){
       return $totalPajak + $harga;
     }
 
+    // Memanggil function yang sudah dibuat
     $totalPajak = totalPajak($pajakAsal, $pajakTujuan);
     $totalHarga = totalHarga($totalPajak, $harga);
 
