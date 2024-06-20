@@ -1,74 +1,52 @@
 [
-  {
-    "bandara_asal": "Soekarno-Hatta(CGK)",
-    "pajak": "50000",
-    "data": [
-      {
-        "id": "1"
-      }
-    ]
-  },
-  {
-    "bandara_asal": "Husein Sastranegara (BDO)",
-    "pajak": "50000",
-    "data": [
-      {
-        "id": "2"
-      }
-    ]
-  },
-  {
-    "bandara_asal": "Abdul Rachman Saleh (MLG)",
-    "pajak": "40000",
-    "data": [
-      {
-        "id": "3"
-      }
-    ]
-  },
-  {
-    "bandara_asal": "Juanda (SUB)",
-    "pajak": "40000",
-    "data": [
-      {
-        "id": "4"
-      }
-    ]
-  },
-  {
-    "bandara_tujuan": "Ngurah Rai (DPS)",
-    "pajak": "80000",
-    "data": [
-      {
-        "id": "5"
-      }
-    ]
-  },
-  {
-    "bandara_tujuan": "Hasanuddin (UPG)",
-    "pajak": "70000",
-    "data": [
-      {
-        "id": "6"
-      }
-    ]
-  },
-  {
-    "bandara_tujuan": "Inanwatan (INX)",
-    "pajak": "90000",
-    "data": [
-      {
-        "id": "7"
-      }
-    ]
-  },
-  {
-    "bandara_tujuan": "Sultan Iskandarmuda (BTJ)",
-    "pajak": "70000",
-    "data": [
-      {
-        "id": "8"
-      }
-    ]
-  }
+    {
+        "maskapai": "Air Asia",
+        "bandaraAsal": "Soekarno-Hatta (CGK)",
+        "bandaraTujuan": "Ngurah Rai (DPS)",
+        "harga": "540000",
+        "pajakAsal": 50000,
+        "pajakTujuan": 80000,
+        "totalPajak": 130000,
+        "totalHarga": 670000
+    },
+    {
+        "maskapai": "Air Asia",
+        "bandaraAsal": "Juanda (SUB)",
+        "bandaraTujuan": "Ngurah Rai (DPS)",
+        "harga": "540000",
+        "pajakAsal": 40000,
+        "pajakTujuan": 80000,
+        "totalPajak": 120000,
+        "totalHarga": 660000
+    },
+    {
+        "maskapai": "Citilink",
+        "bandaraAsal": "Soekarno-Hatta (CGK)",
+        "bandaraTujuan": "Hasanuddin (UPG)",
+        "harga": "300000",
+        "pajakAsal": 50000,
+        "pajakTujuan": 70000,
+        "totalPajak": 120000,
+        "totalHarga": 420000
+    },
+    {
+        "maskapai": "Batik",
+        "bandaraAsal": "Abdul Rachman Saleh (MLG)",
+        "bandaraTujuan": "Sultan Iskandarmuda (BTJ)",
+        "harga": "250000",
+        "pajakAsal": 40000,
+        "pajakTujuan": 70000,
+        "totalPajak": 110000,
+        "totalHarga": 360000
+    },
+    {
+        "maskapai": "Garuda",
+        "bandaraAsal": "Husein Sastranegara (BDO)",
+        "bandaraTujuan": "Hasanuddin (UPG)",
+        "harga": "800000",
+        "pajakAsal": 30000,
+        "pajakTujuan": 70000,
+        "totalPajak": 100000,
+        "totalHarga": 900000
+    }
 ]
