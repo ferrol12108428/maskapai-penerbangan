@@ -23,8 +23,7 @@
 
 <body>
     <div class="container">
-        <a href="index.php" class="btn btn-danger mt-5">Back</a>
-        <div class="card mt-2">
+        <div class="card mt-4">
             <div class="card-header bg-dark">
                 <h1 class="m-2 text-white text-center">Pendaftaran Rute Penerbangan</h1>
             </div>
@@ -106,7 +105,8 @@
                     </div>
 
                     <!-- Button untuk mengirim data -->
-                    <button type="submit" class="btn btn-primary" name="submit">SUBMIT</button>
+                    <button type="submit" class="btn btn-secondary" name="submit">Submit</button>
+                    <a href="index.php" class="btn btn-secondary float-right">Back</a>
                 </form>
             </div>
         </div>
