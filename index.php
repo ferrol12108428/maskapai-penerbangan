@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <title>Pajak Bandara</title>
   <!-- Menghubungkan stylesheet external untuk gaya tampilan -->
-  <link rel="stylesheet" href="assets/css/form.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
   <!-- Menghubungkan FontAwesome untuk ikon -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>

@@ -28,15 +28,16 @@ Program Pendaftaran Rute Penerbangan adalah aplikasi berbasis web yang memungkin
 
 ```
 web_project
+   | assets
+     | css
+       |__ style.css
+     | img
+       |__ bandaralog.png
+       |__ logo.png
    | data
      |__ bandara_asal.json
      |__ bandara_tujuan.json
      |__ data.json
-   | images
-     |__ bandaralog.png
-     |__ logo.png
-   | styles
-     |__ style.css
    | index.php
    | form.php
 ```
