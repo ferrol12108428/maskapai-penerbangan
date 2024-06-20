@@ -1,22 +1,3 @@
 [
-    {
-        "maskapai": "Ferrol",
-        "bandara_asal": "Soekarno-Hatta (CGK)",
-        "bandara_tujuan": "Ngurah Rai (DPS)",
-        "harga": 5000000,
-        "pajak_asal": 50000,
-        "pajak_tujuan": 80000,
-        "total_pajak": 130000,
-        "total_harga_tiket": 5130000
-    },
-    {
-        "maskapai": "Bened",
-        "bandara_asal": "Soekarno-Hatta (CGK)",
-        "bandara_tujuan": "Hasanuddin (UPG)",
-        "harga": 5000000,
-        "pajak_asal": 50000,
-        "pajak_tujuan": 70000,
-        "total_pajak": 120000,
-        "total_harga_tiket": 5120000
-    }
+    
 ]
