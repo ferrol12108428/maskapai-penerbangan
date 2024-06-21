@@ -222,8 +222,11 @@
                     // Mengekstrak kolom 'maskapai' dari data.json
                     $maskapaiColumn = array_column($datas, 'maskapai');
                 
-                    // Mengurutkan data berdasarkan kolom 'maskapai'
-                    array_multisort($maskapaiColumn, SORT_ASC, $datas);
+                    // Mengubah semua elemen kolom 'maskapai' menjadi huruf kecil
+                    $maskapaiColumnLowerCase = array_map('strtolower', $maskapaiColumn);
+
+                    // Mengurutkan beberapa array secara bersamaan dengan menggunakan ascending
+                    array_multisort($maskapaiColumnLowerCase, SORT_ASC, $datas);
                 }
                 
                 // Melakukan pengecekan jika data dari data.json tidak kosong maka eksekusi program akan dilakukan
@@ -232,7 +235,7 @@
                     foreach ($datas as $data) {
                         // Menampilkan output tabel
                         echo '<tr>';
-                        echo '<td>' . $i++ . '</td>';
+                        echo '<td>' . $i++ . '</td>';   
                         echo '<td>' . $data['maskapai'] . '</td>';
                         echo '<td>' . $data['bandaraAsal'] . '</td>';
                         echo '<td>' . $data['bandaraTujuan'] . '</td>';
