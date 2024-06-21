@@ -64,7 +64,9 @@
               $datas = json_decode($getFile, true);
               $i = 1;
 
+              // foreach akan menampilkan data yang diambil dari bandaraAsal.json
               foreach ($datas as $data) {
+                // logika if dimaksudkan untuk menyortir table jika urutan genap maka akan memiliki class active
                 if ($i % 2 === 0) {
                   echo '<tr class="active">';
                   echo '<td>' . $i++ . '</td>';
@@ -107,7 +109,9 @@
                 $datas = json_decode($getFile, true);
                 $i = 1;
 
+                // foreach akan menampilkan data yang diambil dari bandaraAsal.json
                 foreach ($datas as $data) {
+                  // logika if dimaksudkan untuk menyortir table jika urutan genap maka akan memiliki class active
                   if ($i % 2 === 0) {
                     echo '<tr class="active">';
                     echo '<td>' . $i++ . '</td>';

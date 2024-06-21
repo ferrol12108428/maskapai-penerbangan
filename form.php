@@ -8,7 +8,7 @@
 
     <!-- Link Google Fonts Start -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Link Google Fonts End
+    <!-- Link Google Fonts End -->
 
   <!-- Link Bootstrap Start -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
