@@ -38,5 +38,15 @@
         "pajakTujuan": 90000,
         "totalPajak": 130000,
         "totalHargaTiket": 630000
+    },
+    {
+        "maskapai": "Pesawat Ilahi",
+        "bandaraAsal": "Soekarno-Hatta (CGK)",
+        "bandaraTujuan": "Ngurah Rai (DPS)",
+        "harga": 2000,
+        "pajakAsal": 50000,
+        "pajakTujuan": 80000,
+        "totalPajak": 130000,
+        "totalHargaTiket": 132000
     }
 ]
