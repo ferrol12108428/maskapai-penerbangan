@@ -107,7 +107,7 @@
                     </div>
 
                     <!-- Button untuk mengirim data -->
-                    <button type="submit" class="btn btn-primary" name="submit">SUBMIT</button>
+                    <button type="submit" class="btn btn-secondary" name="submit">Submit</button>
                     <a href="index.php" class="btn btn-secondary float-right">Back</a>
                 </form>
             </div>
@@ -196,7 +196,7 @@
     ?>
 
     <div class="container mt-5">
-        <h1>Daftar Rute Tersedia</h1>
+        <h1 class="text-center m-2">Daftar Rute Tersedia</h1>
         <table class="table table-bordered">
             <thead class="thead-dark">
                 <tr>
