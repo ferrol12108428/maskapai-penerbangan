@@ -38,9 +38,9 @@ web_project
      |__ bandara_asal.json
      |__ bandara_tujuan.json
      |__ data.json
-   | index.php
-   | form.php
-   | README.md
+   |__ index.php
+   |__ form.php
+   |__ README.md
 ```
 
 ## Instalasi
