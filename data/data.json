@@ -28,25 +28,5 @@
         "pajakTujuan": 80000,
         "totalPajak": 120000,
         "totalHargaTiket": 660000
-    },
-    {
-        "maskapai": "Garuda",
-        "bandaraAsal": "Abdul Rachman Saleh (MLG)",
-        "bandaraTujuan": "Inanwatan (INX)",
-        "harga": 500000,
-        "pajakAsal": 40000,
-        "pajakTujuan": 90000,
-        "totalPajak": 130000,
-        "totalHargaTiket": 630000
-    },
-    {
-        "maskapai": "Pesawat Ilahi",
-        "bandaraAsal": "Soekarno-Hatta (CGK)",
-        "bandaraTujuan": "Ngurah Rai (DPS)",
-        "harga": 2000,
-        "pajakAsal": 50000,
-        "pajakTujuan": 80000,
-        "totalPajak": 130000,
-        "totalHargaTiket": 132000
     }
 ]
