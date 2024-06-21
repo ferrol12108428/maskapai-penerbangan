@@ -197,7 +197,7 @@
 
     <div class="container mt-5">
         <h1 class="text-center m-2">Daftar Rute Tersedia</h1>
-        <table class="table table-bordered">
+        <table class="table table-bordered" style="border-radius: 20px;">
             <thead class="thead-dark">
                 <tr>
                     <th>#</th>
